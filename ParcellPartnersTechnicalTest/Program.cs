@@ -4,6 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        args = ["hello"];
         //convert string args into a ints
         int[] set = args.ToIntArr();
 

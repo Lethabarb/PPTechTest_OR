@@ -10,6 +10,8 @@ namespace ParcellPartnersTechnicalTest
     {
         public int FindMissingNumber(int[] ints)
         {
+            if (ints.Length == 0) return -1;
+
             List<int> list = ints.ToList();
             list.Sort();
 
