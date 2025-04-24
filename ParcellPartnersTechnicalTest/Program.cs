@@ -1,4 +1,5 @@
-﻿using ParcellPartnersTechnicalTest;
+﻿using ParcellPartnersTechnicalTest.Services;
+using ParcellPartnersTechnicalTest.Utilities;
 
 internal class Program
 {

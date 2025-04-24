@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParcellPartnersTechnicalTest
+namespace ParcellPartnersTechnicalTest.Utilities
 {
     public static class ArrayConverter
     {
@@ -21,7 +21,8 @@ namespace ParcellPartnersTechnicalTest
                 }
                 return set;
             }
-            catch {
+            catch
+            {
                 Console.WriteLine("An input argument cannot be converted to an int.");
                 return new int[0];
             }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParcellPartnersTechnicalTest
+namespace ParcellPartnersTechnicalTest.Services
 {
     public class ArrayEvaluator
     {
@@ -31,7 +31,7 @@ namespace ParcellPartnersTechnicalTest
             // the missing number can be found by subtracting the expected from the actual sum.
             // NOTE: this will ONLY work if 1 element is missing from the set. 
             double missing = expected - sum;
-            return (int) missing;
+            return (int)missing;
 
         }
 
