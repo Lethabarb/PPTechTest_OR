@@ -5,13 +5,12 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        args = ["hello"];
+        args = ["0", "2", "3", "4", "5","6", "7", "8", "9"];
         //convert string args into a ints
         int[] set = args.ToIntArr();
 
         //find the missing number
-        ArrayEvaluator eval = new ArrayEvaluator();
-        int missing = eval.FindMissingNumber(set);
+        int missing = ArrayEvaluator.FindMissingNumber(set);
 
         Console.WriteLine(missing);
 
