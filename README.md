@@ -1,5 +1,5 @@
-## Parcell Partners Techical Test
-# By Oliver Robin
+# Parcell Partners Techical Test
+## By Oliver Robin
 oliver@robinnetwork.au
 
 ## Problem Description: 
