@@ -24,10 +24,10 @@ In my solution I utilised a simple airthmic concept which can easily sum a airth
 and the actual sum of the numbers, we can find the missing number. This calculation part of the algorithm is more efficient than checking each index for the next number and more versatile by being able to handle
 larger common differences between numbers.
 
-This airthmic calculation has a time complexity of O(1), however the preparation of this needs the list of numbers to be sorted. I use the C# list.Sort() function which by defenition has an average time complexity of O(n log n)
+This airthmic calculation has a time complexity of O(1), however the preparation of this needs the list of numbers to be sorted. I use the C# list.Sort() function which by defenition has an average time complexity of O(n log n)*
 and a max of O(n^2). This will cause the overall time complexity of the solution to that of the sorting algorithm, which most of the time will be O(n log n). 
-
-*Source: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.sort?view=net-9.0&redirectedfrom=MSDN#system-collections-generic-list-1-sort*
 
 Additionally, to ensure the validity of my solution I created unit tests with a large range of number sets, from 1-100 numbers and each number missing in the set. This ensures the program will be able to handle any problem thrown at it when
 evaluated by the technical team.
+
+**Source: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.sort?view=net-9.0&redirectedfrom=MSDN#system-collections-generic-list-1-sort*
