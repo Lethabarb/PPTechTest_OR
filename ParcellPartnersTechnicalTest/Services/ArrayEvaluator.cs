@@ -27,7 +27,7 @@ namespace ParcellPartnersTechnicalTest.Services
             // since we know the first and the last number of the set we can calculate the expected sum
             // using the arithmic sequence sum formula.
             double sum = Sum(ints);
-            double expected = (totalElements) * ((first + last) / 2);
+            double expected = ((double)totalElements) * ((first + last) / 2.00);
 
             // the missing number can be found by subtracting the expected from the actual sum.
             // NOTE: this will ONLY work if 1 element is missing from the set. 
