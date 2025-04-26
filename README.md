@@ -1,6 +1,6 @@
-### Parcell Partners Techical Test
-## By Oliver Robin
-# oliver@robinnetwork.au
+## Parcell Partners Techical Test
+# By Oliver Robin
+oliver@robinnetwork.au
 
 ## Problem Description: 
 In C# create a console app that finds the Missing Number using SOLID principles
